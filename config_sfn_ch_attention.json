@@ -1,0 +1,23 @@
+{
+    "model": {
+        "in_channel": 4,
+        "learning_rate": 0.001,
+        "weight_decay": 1e-6,
+        "num_epochs": 100,
+        "use_cuda": 1,
+	"start_epoch":3
+    },
+
+    "data": {
+        "test_array": "test_array.txt",
+        "train_array": "train_array_sfn.txt",
+        "train_dirpath": "/srv/storage/talc3@talc-data.nancy/multispeech/calcul/users/sdowerah/data/dataset/train_dataset_sfn",
+        "test_dirpath": "/srv/storage/talc3@talc-data.nancy/multispeech/calcul/users/sdowerah/data/dataset/robovox_10_dataset",
+	"model_dir":"/srv/storage/talc3@talc-data.nancy/multispeech/calcul/users/sdowerah/data/model/unet_ds_sfn_ch_atten",
+        "checkpoint_model_path": "/srv/storage/talc3@talc-data.nancy/multispeech/calcul/users/sdowerah/data/model/unet_ds_sfn_ch_atten/unet_model_epoch_26.pt",
+	"checkpoint_optimizer_path":"/srv/storage/talc3@talc-data.nancy/multispeech/calcul/users/sdowerah/data/model/unet_ds_sfn_ch_atten/unet_optimizer_epoch_26.pt",
+        "checkpoint_interval": 1
+    }
+
+
+}
